@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
+import { Buffer } from 'buffer';
+window.Buffer = Buffer;
+
 
 // import { StateContextProvider } from "./context";
 import App from "./App";
