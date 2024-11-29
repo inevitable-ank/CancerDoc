@@ -8,7 +8,4 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    "@babel/plugin-transform-react-jsx",  // Add this plugin to ensure JSX transforms work
-  ],
 };
